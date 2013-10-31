@@ -3,7 +3,7 @@
 */
 Draw.loadPlugin(function(ui) {
     // Adds custom sidebar entry
-    ui.sidebar.addPalette('EIPLibrary', 'EIP', true, function(content) {
+    ui.sidebar.addPalette('BPMNLibrary', 'EIP', true, function(content) {
 
         // content.appendChild(ui.sidebar.createVertexTemplate(null, 120, 60));
         content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/MessageIcon.gif', 100, 100));
