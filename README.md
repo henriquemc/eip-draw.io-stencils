@@ -1,4 +1,4 @@
-eai-draw.io-stencils
+eip-draw.io-stencils
 ====================
 
-Entreprise Integration Patterns stencil fro draw.io app 
+Entreprise Integration Patterns stencil for draw.io app 
