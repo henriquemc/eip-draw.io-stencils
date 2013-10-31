@@ -3,45 +3,21 @@
 */
 Draw.loadPlugin(function(ui) {
     // Adds custom sidebar entry
-    ui.sidebar.addPalette('BPMNLibrary', 'EIP', true, function(content) {
+    ui.sidebar.addPalette('BPMNLibrary', 'BPMN', true, function(content) {
 
         // content.appendChild(ui.sidebar.createVertexTemplate(null, 120, 60));
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/MessageIcon.gif', 100, 100));
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/ContentBasedRouterIcon.gif', 100, 100));
-        
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/MessageTranslatorIcon.gif', 100, 100));
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/MessageEndpointIcon.gif', 100, 100));
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/DeadLetterChannelIcon.gif', 100, 100));
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/MessageBusIcon.gif', 100, 100));
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/ContentBasedRouterIcon.gif', 100, 100));
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/MessageFilterIcon.gif', 100, 100));
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/DynamicRouterIcon.gif', 100, 100));
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/RecipientListIcon.gif', 100, 100));
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/SplitterIcon.gif', 100, 100));
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/SplitterIcon.gif', 100, 100));
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/AggregatorIcon.gif', 100, 100));
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/ResequencerIcon.gif', 100, 100));
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/DistributionAggregateIcon.gif', 100, 100));
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/RoutingTableIcon.gif', 100, 100));
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/DataEnricherIcon.gif', 100, 100));
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/ContentFilterIcon.gif', 100, 100));
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/StoreInLibraryIcon.gif', 100, 100));
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/NormalizerIcon.gif', 100, 100));
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/PollingConsumerIcon.gif', 100, 100));
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/EventDrivenConsumerIcon.gif', 100, 100));
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/CompetingConsumersIcon.gif', 100, 100));
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/MessageDispatcherIcon.gif', 100, 100));
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/DurableSubscriptionIcon.gif', 100, 100));
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/TransactionalClientIcon.gif', 100, 100));
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/MessagingGatewayIcon.gif', 100, 100));
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/MessagingAdapterIcon.gif', 100, 100));
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/DetourIcon.gif', 100, 100));
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/WireTapIcon.gif', 100, 100));
-        //
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/EventMessageIcon.gif', 100, 100));
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/RequestReplyIcon.gif', 100, 100));
-        content.appendChild(ui.sidebar.createVertexTemplate('image;image=http://www.eaipatterns.com/img/CorrelationIdentifierIcon.gif', 100, 100));
-        
+        content.appendChild(ui.sidebar.createVertexTemplate('image;image=https://googledrive.com/host/0B8WNmkSxRc5EOENlMVY4UWRHc3c/BPMN-Mail-Double-Simpler.svg', 100, 100));
+        content.appendChild(ui.sidebar.createVertexTemplate('image;image=https://dl.dropboxusercontent.com/u/32326923/pluginImages/bpmn/BPMN-mail-dotted-2-1-01.png', 100, 100));
+        content.appendChild(ui.sidebar.createVertexTemplate('image;image=https://dl.dropboxusercontent.com/u/32326923/pluginImages/bpmn/BPMN-mail-dotted-2-01.png', 100, 100));
+        content.appendChild(ui.sidebar.createVertexTemplate('image;image=https://dl.dropboxusercontent.com/u/32326923/pluginImages/bpmn/BPMN-mail-dotted-double-1-01.png', 100, 100));
+        content.appendChild(ui.sidebar.createVertexTemplate('image;image=https://dl.dropboxusercontent.com/u/32326923/pluginImages/bpmn/BPMN-mail-dotted-double-2-01.png', 100, 100));
+        content.appendChild(ui.sidebar.createVertexTemplate('image;image=https://dl.dropboxusercontent.com/u/32326923/pluginImages/bpmn/BPMN-mail-dotted-double-4-01.png', 100, 100));
+        content.appendChild(ui.sidebar.createVertexTemplate('image;image=https://dl.dropboxusercontent.com/u/32326923/pluginImages/bpmn/BPMN-mail-dotted-thick-01.png', 100, 100));
+        content.appendChild(ui.sidebar.createVertexTemplate('image;image=https://dl.dropboxusercontent.com/u/32326923/pluginImages/bpmn/BPMN-mail-double-01.png', 100, 100));
+        content.appendChild(ui.sidebar.createVertexTemplate('image;image=https://dl.dropboxusercontent.com/u/32326923/pluginImages/bpmn/BPMN-mail-single-01.png', 100, 100));
+        content.appendChild(ui.sidebar.createVertexTemplate('ellipse', 80, 80));
+        content.appendChild(ui.sidebar.createVertexTemplate('shape=hexagon', 120, 80));
+
         content.appendChild(ui.sidebar.createEdgeTemplate('edgeStyle=none;endArrow=none;', 100, 100));
         content.appendChild(ui.sidebar.createEdgeTemplate('shape=link', 100, 100));
         content.appendChild(ui.sidebar.createEdgeTemplate('arrow', 100, 100));
@@ -53,4 +29,35 @@ Draw.loadPlugin(function(ui) {
     c.insertBefore(c.lastChild, c.firstChild);
     c.insertBefore(c.lastChild, c.firstChild);
 
+    // Adds logo to footer
+    ui.footerContainer.innerHTML = '<img align="right" style="margin-top:14px;margin-right:6px;" ' + 'src="https://www.draw.io/images/logo-small.gif"/>';
+
+    // Adds resource for action
+    mxResources.parse('helloWorldAction=Hello, World!');
+
+    // Adds action
+    ui.actions.addAction('helloWorldAction', function() {
+        var ran = Math.floor((Math.random()*100)+1);
+        mxUtils.alert('A random number is ' + ran);
+    });
+
+    // Adds menu
+    ui.menubar.addMenu('Hello, World Menu', function(menu, parent) {
+        ui.menus.addMenuItem(menu, 'helloWorldAction');
+    });
+
+    // Reorders menubar
+    ui.menubar.container.insertBefore(ui.menubar.container.lastChild,
+    ui.menubar.container.lastChild.previousSibling.previousSibling);
+
+    // Adds toolbar button
+    ui.toolbar.addSeparator();
+    var elt = ui.toolbar.addItem('', 'helloWorldAction');
+
+    // Cannot use built-in sprites
+    elt.firstChild.style.backgroundImage = 'url(https://www.draw.io/images/logo-small.gif)';
+    elt.firstChild.style.backgroundPosition = '2px 3px';
+
+    // Displays status message
+    ui.editor.setStatus('Hello, World!');
 });
